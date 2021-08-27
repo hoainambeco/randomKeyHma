@@ -45,8 +45,7 @@ private String Key;
                             String key1 = "";
                             String key2 = "";
                             String key3 = "";
-                            String key4 = "";
-                            String key5 = ":1";
+                            String key4 = ":1";
                             for (int j = 0; j < 6; j++) {
                                 List list = new ArrayList(string);
                                 Collections.shuffle(list);
@@ -62,12 +61,7 @@ private String Key;
                                 Collections.shuffle(list);
                                 key3 += (String) list.get(j);
                             }
-                            for (int j = 0; j < 6; j++) {
-                                List list = new ArrayList(string);
-                                Collections.shuffle(list);
-                                key4 += (String) list.get(j);
-                            }
-                            fw.write(key1 + "-" + key2 + "-" + key3 + "-" + key4 + key5 + "\n");
+                            fw.write(key1 + "-" + key2 + "-" + key3 + "-" + key4+ "\n");
                         }
                         fw.close();
                     }
