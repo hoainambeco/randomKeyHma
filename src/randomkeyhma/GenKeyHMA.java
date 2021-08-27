@@ -32,7 +32,7 @@ private String Key;
 
     private void creatKeyHMA() {
         if (valtdateFrom()) {
-            String[] d = {"Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M", "1", "2","3","4","5","6","7","8","9"};
+            String[] d = {"Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M", "1", "2","3","4","5","6","7","8","9","0"};
             try {
                 int sl = Integer.parseInt(txtSL.getText());
                 try {
@@ -61,7 +61,7 @@ private String Key;
                                 Collections.shuffle(list);
                                 key3 += (String) list.get(j);
                             }
-                            fw.write(key1 + "-" + key2 + "-" + key3 + "-" + key4+ "\n");
+                            fw.write(key1 + "-" + key2 + "-" + key3 + key4+ "\n");
                         }
                         fw.close();
                     }

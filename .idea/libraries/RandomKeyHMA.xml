@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RandomKeyHMA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/RandomKeyHMA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
